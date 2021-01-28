@@ -12,9 +12,9 @@
         * 验证 0.0026 + 0.2308 + 0.7666 = 1
 
 # numpy的矩阵乘法
-    ## element-wise乘法
-        - 对应元素分别相乘，前后shape不变
-        - 方法：a * b 或者 a.multiply(b) 或者 np.multiply(a, b)
-    ## 矩阵相乘
-        - shape会变，m*n的矩阵 乘以 n*x 的矩阵，最后变成 m * x 的矩阵
-        - 方法：dot 或者 matmul
+## element-wise乘法
+- 对应元素分别相乘，前后shape不变
+- 方法：a * b 或者 a.multiply(b) 或者 np.multiply(a, b)
+## 矩阵相乘
+- shape会变，m*n的矩阵 乘以 n*x 的矩阵，最后变成 m * x 的矩阵
+- 方法：dot 或者 matmul
